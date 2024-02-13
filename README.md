@@ -15,7 +15,9 @@ go build
  - Responds to GET requests
  - against directory traversal attacks.
 
-## Command
+## Execute
 ```bash
+go build
 ./[executable-name] [port]
 ```
+http://localhost:[port]/
