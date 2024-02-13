@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+<body>
+    <h1>Welcome to the Sample Page</h1>
+    <p>This is a index.html file served by a Go Web Server.</p>
+    <p>Current Path: <span id="currentPath"></span></p>
+    <!-- ボタンを追加 -->
+    <button id="goToSample">Go to /sample</button>
+    <script>
+        // 現在のURLからパスを取得して表示
+        document.getElementById('currentPath').textContent = window.location.pathname;
+        
+        // ボタンクリックで/sampleにリダイレクト
+        document.getElementById('goToSample').addEventListener('click', function() {
+            window.location.href = '/sample';
+        });
+    </script>
+</body>
+</html>
