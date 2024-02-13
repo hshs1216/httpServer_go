@@ -18,6 +18,6 @@ go build
 ## Execute
 ```bash
 go build
-./[executable-name] [port]
+./httpserver_go-main [port]
 ```
 http://localhost:[port]/
