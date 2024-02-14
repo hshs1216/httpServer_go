@@ -15,9 +15,13 @@ go build
  - Responds to GET requests
  - against directory traversal attacks.
 
-## Execute
+## Run
+
 ```bash
 go build
 ./httpserver_go-main [port]
 ```
-http://localhost:[port]/
+
+## Notice
+
+This is a repository for learning purposes. Use at your own risk.
